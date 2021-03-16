@@ -1,0 +1,97 @@
+html {
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    height:100%;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;    
+}
+
+header {
+    background-color: rgb(2, 148, 148);  
+    color: white;  
+    height: 180px;    
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a hover {
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: beige;
+    padding-top: 20px;
+    border: solid rgb(97, 97, 97) 3px;
+}
+
+.introtext {
+    text-align: center;
+    line-height: 2;
+    padding-bottom: 50px;
+    padding-right: 200px;
+}
+
+main {
+    display: flex;    
+    justify-content: space-between;    
+    text-align: left;
+    background-color: rgb(138, 136, 136);
+    border: solid rgb(57, 58, 58) 3px;
+    line-height: 2;
+    padding: 20px 200px;    
+}
+
+main .q {
+    text-align: right;
+}
+
+main .maintext {
+    padding-left: 20px;
+}
+
+footer {
+    border: solid rgb(19, 19, 19) 3px;
+    background-color: rgb(179, 164, 164);
+    padding-left: 100px;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    line-height: 2;
+    padding: 60px;
+    text-align: left;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color:rgb(57, 58, 58);
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
